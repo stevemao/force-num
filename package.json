@@ -1,0 +1,38 @@
+{
+  "name": "force-num",
+  "version": "1.0.0",
+  "description": "Ensure environment variable exists and convert to a number. If not, throw to fail early.",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --declaration --outDir lib index.ts",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevemao/force-num.git"
+  },
+  "keywords": [
+    "env",
+    "var",
+    "vars",
+    "throw"
+  ],
+  "author": "Steve Mao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevemao/force-num/issues"
+  },
+  "homepage": "https://github.com/stevemao/force-num#readme",
+  "dependencies": {
+    "force-env": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "typescript": "^3.7.5"
+  }
+}
