@@ -9,4 +9,4 @@ const nodeEnv = forceNum('PORT')
 
 ## Related
 
-- [force-env](https://github.com/stevemao/force-env)
+- [force-env](https://github.com/stevemao/force-env) - Ensure environment variable exists. If not, throw to fail early.
