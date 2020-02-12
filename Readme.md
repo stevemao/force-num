@@ -6,3 +6,7 @@ import forceNum from 'force-num'
 const nodeEnv = forceNum('PORT')
 // => 3000, or throw if not set or not a number
 ```
+
+## Related
+
+- [force-env](https://github.com/stevemao/force-env)
