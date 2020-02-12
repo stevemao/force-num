@@ -9,4 +9,3 @@ export default (a: string) => {
   
     return num;
   };
-  
